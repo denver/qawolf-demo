@@ -8,8 +8,8 @@ const Home = () => (
     </Head>
 
     <main>
-      <h1 className="title">
-        Welcome <a href="https://denverpeterson.com">Denver Peterson</a>
+      <h1 className="title" data-test-id="main-page-title">
+        Welcome <a data-test-id="about-link" href="/posts/about">About Page</a>
       </h1>
     </main>
     <style jsx>{`
