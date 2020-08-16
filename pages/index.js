@@ -9,7 +9,7 @@ const Home = () => (
 
     <main>
       <h1 className="title" data-test-id="main-page-title">
-        Welcome <a data-test-id="about-link" href="/posts/about">About Page</a>
+        Check out the <a data-test-id="about-link" href="about">About Page</a>
       </h1>
     </main>
     <style jsx>{`
