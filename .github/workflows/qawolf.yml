@@ -4,6 +4,9 @@ on:
     # test every branch
     # edit below if you only want certain branches tested
     branches: "*"
+  pull_request:
+    branches:
+      - master
   # schedule:
   #   # test on schedule using cron syntax
   #   - cron: "0 * * * *" # every hour
