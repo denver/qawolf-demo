@@ -3,17 +3,14 @@ import Head from 'next/head'
 const Home = () => (
   <div className="container">
     <Head>
-      <title>QA Wolf Demo</title>
+      <title>Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <main>
       <h1 className="title" data-test-id="main-page-title">
-        Welcome to the QA Wolf <a data-test-id="demo-link" href="demo">Demo</a>
+        Check out the <a data-test-id="about-link" href="about">About Page</a>
       </h1>
-      <h3>
-        Because, vercel-nextjs-qawolf-playwright-github-actions just felt a little too long.
-      </h3>
     </main>
     <style jsx>{`
       .container {
