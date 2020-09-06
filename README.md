@@ -1,16 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+# QA Wolf Demo
+
+This is a demo and online tutorial on how to use [QA Wolf](https://qawolf.com), a new test automation framework built on the [Playwright](https://playwright.dev/) API.
+
+We're going to create a Next.js app using [Vercel](https://vercel.com/download), add QA Wolf and then run the QA Wolf tests in CI using Github Actions.
+
+This project assumes some knowledge of the command line and a Github account (though is not required for all sections).
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Install [vercel cli](https://vercel.com/download) - `npm i -g vercel` 
+2. vercel init nextjs [your-test-project-name]
+![](vercel-init.gif)
+3. cd nextjs
+4. npm install
+5. npm run dev
+6. npm init qawolf
+7. npx qawolf create http://localhost:3000 firstTest
 
 ## QA Wolf
 
